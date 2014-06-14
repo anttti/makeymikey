@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E45FBCC9194C5744008F214E /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = E45FBCC8194C5744008F214E /* UIImage+FixOrientation.m */; };
+		E45FBCCF194C694D008F214E /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E45FBCCC194C694D008F214E /* SVProgressHUD.bundle */; };
+		E45FBCD0194C694D008F214E /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E45FBCCE194C694D008F214E /* SVProgressHUD.m */; };
+		E45FBCD2194C696B008F214E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45FBCD1194C696B008F214E /* QuartzCore.framework */; };
 		E4FC9596194B6842006F81BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FC9595194B6842006F81BD /* Foundation.framework */; };
 		E4FC9598194B6842006F81BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FC9597194B6842006F81BD /* CoreGraphics.framework */; };
 		E4FC959A194B6842006F81BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FC9599194B6842006F81BD /* UIKit.framework */; };
@@ -21,6 +25,8 @@
 		E4FC95B7194B6842006F81BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4FC9599194B6842006F81BD /* UIKit.framework */; };
 		E4FC95BF194B6842006F81BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4FC95BD194B6842006F81BD /* InfoPlist.strings */; };
 		E4FC95C1194B6842006F81BD /* MakeyMikeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FC95C0194B6842006F81BD /* MakeyMikeyTests.m */; };
+		E4FC95CC194B6A96006F81BD /* MMPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4FC95CB194B6A96006F81BD /* MMPreviewViewController.m */; };
+		E4FC95DB194C54DE006F81BD /* mike-small-3.png in Resources */ = {isa = PBXBuildFile; fileRef = E4FC95DA194C54DE006F81BD /* mike-small-3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E45FBCC7194C5744008F214E /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		E45FBCC8194C5744008F214E /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		E45FBCCB194C694D008F214E /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		E45FBCCC194C694D008F214E /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		E45FBCCD194C694D008F214E /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		E45FBCCE194C694D008F214E /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		E45FBCD1194C696B008F214E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E4FC9592194B6842006F81BD /* MakeyMikey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeyMikey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4FC9595194B6842006F81BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E4FC9597194B6842006F81BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +66,9 @@
 		E4FC95BC194B6842006F81BD /* MakeyMikeyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MakeyMikeyTests-Info.plist"; sourceTree = "<group>"; };
 		E4FC95BE194B6842006F81BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E4FC95C0194B6842006F81BD /* MakeyMikeyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MakeyMikeyTests.m; sourceTree = "<group>"; };
+		E4FC95CA194B6A96006F81BD /* MMPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPreviewViewController.h; sourceTree = "<group>"; };
+		E4FC95CB194B6A96006F81BD /* MMPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPreviewViewController.m; sourceTree = "<group>"; };
+		E4FC95DA194C54DE006F81BD /* mike-small-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mike-small-3.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E45FBCD2194C696B008F214E /* QuartzCore.framework in Frameworks */,
 				E4FC9598194B6842006F81BD /* CoreGraphics.framework in Frameworks */,
 				E4FC959A194B6842006F81BD /* UIKit.framework in Frameworks */,
 				E4FC9596194B6842006F81BD /* Foundation.framework in Frameworks */,
@@ -79,9 +96,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E45FBCCA194C694D008F214E /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E45FBCCB194C694D008F214E /* SVProgressHUD-Prefix.pch */,
+				E45FBCCC194C694D008F214E /* SVProgressHUD.bundle */,
+				E45FBCCD194C694D008F214E /* SVProgressHUD.h */,
+				E45FBCCE194C694D008F214E /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
 		E4FC9589194B6842006F81BD = {
 			isa = PBXGroup;
 			children = (
+				E45FBCCA194C694D008F214E /* SVProgressHUD */,
 				E4FC959B194B6842006F81BD /* MakeyMikey */,
 				E4FC95BA194B6842006F81BD /* MakeyMikeyTests */,
 				E4FC9594194B6842006F81BD /* Frameworks */,
@@ -101,6 +130,7 @@
 		E4FC9594194B6842006F81BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E45FBCD1194C696B008F214E /* QuartzCore.framework */,
 				E4FC9595194B6842006F81BD /* Foundation.framework */,
 				E4FC9597194B6842006F81BD /* CoreGraphics.framework */,
 				E4FC9599194B6842006F81BD /* UIKit.framework */,
@@ -119,6 +149,11 @@
 				E4FC95AB194B6842006F81BD /* MMViewController.m */,
 				E4FC95AD194B6842006F81BD /* Images.xcassets */,
 				E4FC959C194B6842006F81BD /* Supporting Files */,
+				E4FC95CA194B6A96006F81BD /* MMPreviewViewController.h */,
+				E4FC95DA194C54DE006F81BD /* mike-small-3.png */,
+				E4FC95CB194B6A96006F81BD /* MMPreviewViewController.m */,
+				E45FBCC7194C5744008F214E /* UIImage+FixOrientation.h */,
+				E45FBCC8194C5744008F214E /* UIImage+FixOrientation.m */,
 			);
 			path = MakeyMikey;
 			sourceTree = "<group>";
@@ -230,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4FC95AE194B6842006F81BD /* Images.xcassets in Resources */,
+				E45FBCCF194C694D008F214E /* SVProgressHUD.bundle in Resources */,
+				E4FC95DB194C54DE006F81BD /* mike-small-3.png in Resources */,
 				E4FC95A0194B6842006F81BD /* InfoPlist.strings in Resources */,
 				E4FC95A9194B6842006F81BD /* Main.storyboard in Resources */,
 			);
@@ -253,6 +290,9 @@
 				E4FC95A6194B6842006F81BD /* MMAppDelegate.m in Sources */,
 				E4FC95AC194B6842006F81BD /* MMViewController.m in Sources */,
 				E4FC95A2194B6842006F81BD /* main.m in Sources */,
+				E45FBCD0194C694D008F214E /* SVProgressHUD.m in Sources */,
+				E4FC95CC194B6A96006F81BD /* MMPreviewViewController.m in Sources */,
+				E45FBCC9194C5744008F214E /* UIImage+FixOrientation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +497,7 @@
 				E4FC95C6194B6842006F81BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4FC95C7194B6842006F81BD /* Build configuration list for PBXNativeTarget "MakeyMikeyTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +506,7 @@
 				E4FC95C9194B6842006F81BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

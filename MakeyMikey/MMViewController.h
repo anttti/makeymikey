@@ -10,4 +10,7 @@
 
 @interface MMViewController : UIViewController
 
+- (IBAction)photoFromCamera:(id)sender;
+- (IBAction)photoFromLibrary:(id)sender;
+
 @end
